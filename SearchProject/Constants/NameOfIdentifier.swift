@@ -9,4 +9,5 @@
 import Foundation
 struct NameOfIdentifier {
     public static let programmingCell = "programmingCell"
+    public static let welcomeCell = "welcomeCell"
 }

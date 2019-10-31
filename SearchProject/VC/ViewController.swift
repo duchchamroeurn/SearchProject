@@ -58,6 +58,10 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func close(_ sender: UIBarButtonItem) {
+        
+        Switcher.share.switchScreen()
+    }
 }
 
 

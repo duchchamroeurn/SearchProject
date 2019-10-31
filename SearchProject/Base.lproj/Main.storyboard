@@ -50,7 +50,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="DCR Search" id="ABi-wN-3In"/>
+                    <navigationItem key="navigationItem" title="DCR Search" id="ABi-wN-3In">
+                        <barButtonItem key="rightBarButtonItem" systemItem="stop" id="Pbz-ud-Z0t">
+                            <connections>
+                                <action selector="close:" destination="BYZ-38-t0r" id="LjQ-ai-0R5"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tblListProgramming" destination="xQT-xk-RgG" id="Gg1-y8-04u"/>
                     </connections>
